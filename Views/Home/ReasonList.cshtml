@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Reason>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Reasons List Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Reasons List</h1>
+    <h4 class="display-4"><p>Number of Reasons: @Model.Count()</p></h4>
+    <br />
+</div>
+<div class="container">
+        @foreach (var r in Model)
+        {
+            <div class="card bg-dark text-white">
+                <div class="card-body">@r.Description</div>
+            </div>
+            <br />
+        }
+</div>

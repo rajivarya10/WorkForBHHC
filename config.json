@@ -1,0 +1,11 @@
+{
+  "ConnectionStrings": {
+    "WorkForBHHCConnectionString": "Data Source=10.17.66.149,1433;Initial Catalog=WorkForBHHCDb;User Id=sa;Password=10Pillars$*;MultipleActiveResultSets=true"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  }
+}
